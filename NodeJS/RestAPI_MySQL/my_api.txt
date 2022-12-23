@@ -1,0 +1,10 @@
+
+   API End Points         Method      Desciption
+1: /api/v1/employees       GET         GET All Employees List
+2: /api/v1/employees/id    GET         GET Employees by Employees id
+3: /api/v1/employees       POST        Create New Employees
+4: /api/v1/employees/id    PATCH       Update Employees Partially
+5: /api/v1/employees/id    PUT         Update Employees Completely
+6: /api/v1/employees/id    DELETE      Delete Employees by Employees id
+
+

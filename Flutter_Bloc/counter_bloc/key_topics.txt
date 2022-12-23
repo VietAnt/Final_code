@@ -1,0 +1,7 @@
+Nội Dung Chính Blocs
+
+1: BlocObserver: Quan sát các thay đổi trạng thái
+2: BlocProvider: Tiện ích Flutter cung cấp một khối cho các phần tử con của nó.
+3: BlocBuilder:  Tiện ích Flutter xử lý việc xây dựng tiện ích đẻ đáp ứng các trạng thái mới.
+4: Sử dụng Cubit thay Bloc.
+5: Thêm sự kiện với context.read
