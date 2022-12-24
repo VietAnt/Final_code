@@ -1,0 +1,9 @@
+
+//Key Topic
+1: BlocObserver: Quan sát các thay đổi trạng thái
+2: BlocProvider: Tiện ích cung cấp 1 khối cho các phần tử con của nó
+3: BlocBuilder : Tiện ích Flutter xử lý việc xây dựng tiện ích mới để dáp ứng các trạng thái mới
+4: Equatable   : Ngăn chặn việc xây dựng lại không cần thiết 
+5: StreamSubcription: Học các sử dụng
+6: buildWhen   : Ngăn chặn việc xây dựng lại không cần thiết
+
