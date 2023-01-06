@@ -1,3 +1,7 @@
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:timer_getx/controllers/theme_controller.dart';
+
 class ButtonWidget extends StatelessWidget {
   const ButtonWidget({
     Key? key,
@@ -10,6 +14,7 @@ class ButtonWidget extends StatelessWidget {
   final Color color;
   final VoidCallback onTap;
   final FontWeight fontWeight;
+  
   @override
   Widget build(BuildContext context) {
     var themeController = Get.find<ThemeController>();

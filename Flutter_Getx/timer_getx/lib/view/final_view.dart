@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:timer_getx/components/buttons.dart';
 import 'package:timer_getx/controllers/theme_controller.dart';
+import 'package:timer_getx/controllers/timer_controller.dart';
 
 class FinalView extends StatelessWidget {
   const FinalView({Key? key}) : super(key: key);
