@@ -14,7 +14,7 @@ class ButtonWidget extends StatelessWidget {
   final Color color;
   final VoidCallback onTap;
   final FontWeight fontWeight;
-  
+
   @override
   Widget build(BuildContext context) {
     var themeController = Get.find<ThemeController>();

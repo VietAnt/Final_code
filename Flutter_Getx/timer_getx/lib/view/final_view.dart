@@ -44,14 +44,22 @@ class FinalView extends StatelessWidget {
                                   color: themeController.isDarkMode
                                       ? Colors.black
                                       : const Color.fromARGB(
-                                          109, 144, 144, 144)),
+                                          109,
+                                          144,
+                                          144,
+                                          144,
+                                        )),
                               BoxShadow(
                                   blurRadius: 10.0,
                                   offset: const Offset(-5, -5),
                                   color: themeController.isDarkMode
                                       ? const Color.fromARGB(255, 27, 27, 27)
                                       : const Color.fromARGB(
-                                          255, 243, 243, 243))
+                                          255,
+                                          243,
+                                          243,
+                                          243,
+                                        ))
                             ],
                           ),
                           width: 300,
@@ -70,7 +78,11 @@ class FinalView extends StatelessWidget {
                                   backgroundColor: themeController.isDarkMode
                                       ? const Color.fromARGB(255, 34, 34, 34)
                                       : const Color.fromARGB(
-                                          255, 237, 237, 237),
+                                          255,
+                                          237,
+                                          237,
+                                          237,
+                                        ),
                                   value: timerController.seconds /
                                       TimerController.maxSeconds,
                                 ),

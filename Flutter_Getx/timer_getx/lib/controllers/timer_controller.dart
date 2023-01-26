@@ -6,7 +6,7 @@ class TimerController extends GetxController {
   var seconds = maxSeconds;
   Timer? timer;
 
-  /// Start Timer
+  /// Start Timer: Bắt đầu hẹn giờ:
   void startTimer({bool rest = true}) {
     if (rest) {
       resetTimer();
@@ -23,7 +23,7 @@ class TimerController extends GetxController {
     });
   }
 
-  /// Stop Timer
+  /// Stop Timer:  dừng
   void stopTimer({bool rest = true}) {
     if (rest) {
       resetTimer();
@@ -33,18 +33,18 @@ class TimerController extends GetxController {
     update();
   }
 
-  /// Reset Timer
+  /// Reset Timer: Đặt lại bộ hẹn giờ
   void resetTimer() {
     seconds = maxSeconds;
     update();
   }
 
-  /// is Timer Active?
+  /// is Timer Active?: Hẹn giờ có hoạt động không
   bool isTimerRuning() {
     return timer == null ? false : timer!.isActive;
   }
 
-  /// is Timer Completed?
+  /// is Timer Completed?: Hẹn giờ đã hoàn thành chưa?
   bool isCompleted() {
     return seconds == maxSeconds || seconds == 0;
   }
