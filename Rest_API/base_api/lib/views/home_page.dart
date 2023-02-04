@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
                           ),
                         ),
                         Text(
-                          posts![index].body ?? '',
+                          posts![index].body,
                           maxLines: 3,
                           overflow: TextOverflow.ellipsis,
                         ),
