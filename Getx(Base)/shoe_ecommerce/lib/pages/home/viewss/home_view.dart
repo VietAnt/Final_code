@@ -50,24 +50,24 @@ class HomePage extends StatelessWidget {
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.end,
                     children: [
-                      IconButton(
-                        padding: EdgeInsets.zero,
-                        constraints: const BoxConstraints(),
-                        onPressed: () => Get.toNamed(Routes.cart),
-                        icon: Badge(
-                          badgeContent: Obx(
-                            () => MyText(
-                              text: Get.find<CartController>()
-                                  .items
-                                  .length
-                                  .toString(),
-                              color: Colors.white,
-                            ),
-                          ),
-                          child: SvgPicture.asset('assets/icons/Buy.svg'),
-                        ),
-                        iconSize: Dimensions.iconSize26,
-                      ),
+                      // IconButton(
+                      //   padding: EdgeInsets.zero,
+                      //   constraints: const BoxConstraints(),
+                      //   onPressed: () => Get.toNamed(Routes.cart),
+                      //   icon: Badge(
+                      //     badgeContent: Obx(
+                      //       () => MyText(
+                      //         text: Get.find<CartController>()
+                      //             .items
+                      //             .length
+                      //             .toString(),
+                      //         color: Colors.white,
+                      //       ),
+                      //     ),
+                      //     child: SvgPicture.asset('assets/icons/Buy.svg'),
+                      //   ),
+                      //   iconSize: Dimensions.iconSize26,
+                      // ),
                       SizedBox(width: Dimensions.width15),
                       IconButton(
                         padding: EdgeInsets.zero,

@@ -46,25 +46,25 @@ class CartPage extends GetView<CartController> {
                         )
                       ],
                     ),
-                    IconButton(
-                      padding: EdgeInsets.zero,
-                      constraints: const BoxConstraints(),
-                      onPressed: () => Get.toNamed(Routes.cart),
-                      //icon_noi
-                      icon: Badge(
-                        badgeContent: Obx(
-                          () => MyText(
-                            text: Get.find<CartController>()
-                                .items
-                                .length
-                                .toString(),
-                            color: Colors.white,
-                          ),
-                        ),
-                        child: SvgPicture.asset('assets/icons/Buy.svg'),
-                      ),
-                      iconSize: Dimensions.iconSize26,
-                    ),
+                    // IconButton(
+                    //   padding: EdgeInsets.zero,
+                    //   constraints: const BoxConstraints(),
+                    //   onPressed: () => Get.toNamed(Routes.cart),
+                    //   //icon_noi
+                    //   icon: Badge(
+                    //     badgeContent: Obx(
+                    //       () => MyText(
+                    //         text: Get.find<CartController>()
+                    //             .items
+                    //             .length
+                    //             .toString(),
+                    //         color: Colors.white,
+                    //       ),
+                    //     ),
+                    //     child: SvgPicture.asset('assets/icons/Buy.svg'),
+                    //   ),
+                    //   iconSize: Dimensions.iconSize26,
+                    // ),
                   ],
                 ),
               ),
